@@ -46,7 +46,7 @@ nav {
 }
 
 .section1 {
-	background-image: url('/img/ubt-studentat.jpg');
+	background-image: url('.img/ubt-studentat.jpg');
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -482,7 +482,7 @@ a {
 
 .section3:after {
 	content: "";
-	background: url(/img/students.svg), var(--ubt-blue);
+	background: url(../img/students.svg), var(--ubt-blue);
 	background-position: center;
 	background-size: 1000px;
 	background-repeat: repeat-x;
@@ -849,7 +849,7 @@ footer .section-right {
 .lajme-first {
 	width: 100%;
 	height: 180px;
-	background: url("/img/ubt-campus.jpg");
+	background: url("../img/ubt-campus.jpg");
 	background-size: cover;
 	background-position: center;
 	margin: 10px;
@@ -858,7 +858,7 @@ footer .section-right {
 .lajme-second {
 	width: 100%;
 	height: 180px;
-	background: url("/img/ubt-slide2.jpg");
+	background: url("../img/ubt-slide2.jpg");
 	background-size: cover;
 	background-position: center;
 	margin: 10px;
@@ -1095,7 +1095,7 @@ footer .section-right {
 	.majtas {
 		width: 100%;
 		height: 180px;
-		background: url("/img/ubt-studentat.jpg");
+		background: url("../img/ubt-studentat.jpg");
 		background-size: cover;
 		background-position: center;
 		margin-right: 20px;
@@ -1108,7 +1108,7 @@ footer .section-right {
 		height: auto;
 	}
 	.section1 {
-		background-image: url('/img/ubt-campus.jpg');
+		background-image: url('../img/ubt-campus.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -1239,13 +1239,13 @@ footer .section-right {
 	.majtas {
 		width: 100%;
 		height: 180px;
-		background: url("/img/ubt-studentat.jpg");
+		background: url("./img/ubt-studentat.jpg");
 		background-size: cover;
 		background-position: center;
 		margin: 10px;
 	}
 	.section1 {
-		background-image: url('/img/ubt-campus.jpg');
+		background-image: url('../img/ubt-campus.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
