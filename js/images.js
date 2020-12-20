@@ -1,6 +1,6 @@
 var i = 0;
-var images = [];
-var time = 3000;
+var images = []; 
+var time = 3000; 
 
 
 images[0] = "img/ubt-studentat.jpg";
