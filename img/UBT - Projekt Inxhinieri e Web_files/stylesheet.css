@@ -1,0 +1,519 @@
+:root {
+    --ubt-blue: #112d4e;
+    --ubt-dark-blue: #112d4e;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    transition: 0.5s ease-out;
+    background: white;
+    z-index: 1;
+}
+
+header.scroll {
+    -webkit-box-shadow: 0px 20px 45px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 45px -23px rgba(0,0,0,0.75);
+    box-shadow: 0px 20px 45px -23px rgba(0,0,0,0.75);
+}
+
+.informate-shtese {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 5%;
+    font-size: 13px;
+    background: var(--ubt-dark-blue);
+}
+
+nav.decrease {
+    transform: scale(1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0px 5%;
+    transition: 0.2s ease-in;
+    transform: scale(1.02);
+}
+
+nav .icon {
+    display: none;
+}
+
+.informate-shtese a {
+    color: #ffff
+}
+
+.nav-majtas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav-majtas ul {
+    display: inline-block;
+}
+
+
+.nav-djathtas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 9px 11px 11px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* js class */
+.show {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.loopa-dropdown {
+    min-width: 150px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+    -moz-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+    box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+}
+
+.loopa-dropdown a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    justify-content: baseline;
+    font-size: 13px;
+    color: var(--ubt-blue);
+}
+
+.loopa-dropdown a:hover {
+    background: var(--ubt-blue);
+    color: #ffff
+}
+
+.main-elements-djathta {
+    padding: 9px 11px 11px;
+    cursor: pointer;
+}
+
+.dropdown-logo {
+    width: 17px;
+    height: 17px;
+    margin: 0px 5px;
+}
+
+img {
+    display: inline-block;
+}
+
+.show {
+    display: block;
+}
+
+main {
+    margin: 0px 5%;
+}
+
+/*paralax*/
+
+#section1 {
+    background-image: url('/img/ubt-campus.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    position: fixed;
+    z-index: -1;
+    top:118.8px;
+}
+
+
+#section1 h2 {
+
+    position: relative;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding:0px;
+    margin:0px;
+    text-align: center;
+
+}
+
+.bg-blue {
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 61, 141, 0.7);
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qite-te-posht {
+    position: relative;
+    top: 56vh;
+    left: 0px;
+    
+}
+
+#section2 {
+    height: 60vh;
+    background: var(--ubt-blue);
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    padding:200px 0;
+    
+}
+
+.majtas {
+    width:200px;
+    height:200px;
+    background: url("/img/ubt-studentat.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.teksti {
+padding:10px;
+display: flex;
+flex-direction: column;
+}
+
+.button-icon {
+    padding:0px 5px;
+    
+}
+
+.konkurs{
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin:0px 50px
+}
+
+.align {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5%;
+}
+
+#section2 button {
+    padding:10px 70px;
+    color: var(--ubt-blue);
+    font-weight:700;
+    margin-top:15px;
+}
+
+.author-info {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.konkurs-date  {
+    font-weight: lighter;
+    font-size: .8rem;
+    padding: 5px;
+}
+
+
+.ndamje {
+    width:100%;
+    background: var(--ubt-blue);
+    height: 1px;
+    margin-top:15px;
+}
+
+.post-title {
+    font-weight: bolder;
+    color:var(--ubt-blue);
+    font-size: 1.5rem;
+}
+#section3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: red;
+}
+
+
+.question-mark {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+    -moz-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+    box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+    border: 2px solid;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+.question-mark p {
+    line-height: 60px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+footer {
+    position: relative;
+    width: 100%;
+    padding: 80px 0px;
+    background: white;
+    margin-top: 400px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div {
+    margin: 0px 5%;
+}
+
+footer .ubt-logo-footer {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin-right: 10px;
+}
+
+footer .mediat-sociale {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.shortcut-menu {
+    position: fixed;
+    z-index: 9999999;
+    left: 35%;
+    width: 30%;
+    top: 15%;
+    height: 70%;
+    overflow: hidden;
+    background: white;
+    border-radius: 20px;
+    display: none;
+    -webkit-box-shadow: 10px 10px 195px 94px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 195px 94px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 195px 94px rgba(0, 0, 0, 0.75);
+}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+@media (max-width: 992px) {
+
+    #section1 h2 {
+
+        font-size:1.6rem;
+        padding: 0px;
+        margin:0px;
+        
+        }
+    .loopa-dropdown {
+        min-width: auto;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-majtas ul li a {
+        padding: 10px 10px;
+    }
+
+    .nav-majtas ul {
+        padding: 20px 10px;
+    }
+
+    .brand {
+        width: 80px;
+        height: 80px;
+    }
+
+    .kufiza {
+        width: 2px;
+        height: 50px;
+        background: var(--ubt-dark-blue);
+        margin: 10px;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    #section1 h2 {
+
+    font-size:1.2rem;
+    padding: 0px;
+    margin:0px;
+    
+    }
+    .nav-majtas ul {
+        display: none;
+    }
+
+    .informate-shtese {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 10px 0px;
+        width: 100%;
+        font-size: 10px;
+        background: var(--ubt-dark-blue);
+    }
+
+    .informate-shtese ul {
+        padding: 0px;
+    }
+
+    .informate-shtese a {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .kufiza {
+        display: none;
+    }
+
+    header {
+        -webkit-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+        -moz-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+        box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+    }
+
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+position: absolute;
+width:30%;
+height: 30%;
+top:30%;
+left:35%;
+
+}
+.form {
+  position:relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+
+  padding: 100px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: var(--ubt-blue);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: var(--ubt-blue);
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: var(--ubt-dark-blue);
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+.log-section {
+    background: var(--ubt-blue);
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin:0px;
+}

@@ -1,0 +1,1325 @@
+:root {
+	--ubt-blue: #112d4e;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 130px;
+	transition: 0.5s ease-out;
+	background: var(--ubt-blue);
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+}
+
+.scroll {
+	-webkit-box-shadow: 0 20px 45px -23px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0 20px 45px -23px rgba(0, 0, 0, 0.75);
+	box-shadow: 0 20px 45px -23px rgba(0, 0, 0, 0.25);
+}
+
+.informate-shtese {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 5%;
+	font-size: 13px;
+	background: var(--ubt-dark-blue);
+	border-bottom: 2px solid #041529;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	transition: 0.2s ease-in;
+	z-index: 999;
+	background: var(--ubt-blue);
+	border-top: 1px solid rgb(55, 82, 111);
+	padding: 5px 5%;
+}
+
+.section1 {
+	background-image: url('/img/ubt-studentat.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 130px;
+	width: 100%;
+	height: 70vh;
+	z-index: 1;
+}
+
+.section1-below {
+	width: 100%;
+	height: 30vh;
+	background: var(--ubt-blue);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section1-below:before {
+	font-family: Tahoma;
+	content: '"';
+	color: white;
+	font-size: 150px;
+	padding: 25px;
+}
+
+.section1-below:after {
+	font-family: Tahoma;
+	content: '"';
+	color: white;
+	font-size: 150px;
+	padding: 25px;
+}
+
+.section1-below h1 {
+	color: white;
+	font-weight: bolder;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.butonet {
+	display: flex;
+}
+
+.butonet button {
+	border: none;
+	padding: 15px 30px;
+	background: var(--ubt-blue);
+	margin: 15px 5px;
+	font-size: 1.2rem;
+	color: white;
+	cursor: pointer;
+}
+
+.butonet button i {
+	padding: 0 5px;
+}
+
+.section1 h1 {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.16em;
+	font-size: 60px;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.background-color {
+	width: 100%;
+	height: 100%;
+	background: rgba(18, 61, 141, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 0 5%;
+}
+
+nav .icon {
+	display: none;
+}
+
+.informate-shtese a {
+	color: rgb(208, 208, 208);
+}
+
+.nav-items li a {
+	font-size: 1.1em;
+	transition: color.3s ease-in;
+}
+
+.nav-items li a:hover {
+	color: rgb(208, 208, 208);
+	padding-bottom: 0;
+}
+
+.nav-majtas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.nav-majtas ul {
+	display: inline-block;
+}
+
+.nav-djathtas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 9px 11px 11px;
+}
+
+header ul li {
+	list-style-type: none;
+}
+
+
+/* js class */
+
+.show {
+	display: block;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.loopa-dropdown {
+	min-width: 150px;
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	z-index: 1;
+	border-radius: 5px;
+	margin-top: 10px;
+	-webkit-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+	-moz-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+	box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+}
+
+.loopa-dropdown a {
+	color: black;
+	padding: 10px 5px;
+	text-decoration: none;
+	display: block;
+	display: flex;
+	justify-content: baseline;
+	font-size: 13px;
+	color: var(--ubt-blue);
+}
+
+.loopa-dropdown a:hover {
+	background: var(--ubt-blue);
+	color: #ffff
+}
+
+.main-elements-djathta {
+	padding: 9px 11px 11px;
+	cursor: pointer;
+}
+
+main {
+	padding: 0;
+	width: 100%;
+}
+
+.dropdown-logo {
+	width: 17px;
+	height: 17px;
+	margin: 0 5px;
+}
+
+img {
+	display: inline-block;
+}
+
+.show {
+	display: block;
+}
+
+.majtas {
+	width: 100%;
+	height: 180px;
+	background: url("../img/ubt-studentat.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.teksti {
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+}
+
+.button-icon {
+	padding: 0 5px;
+}
+
+#section2 {
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+figure {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	opacity: 0.1;
+	padding: 30px 0;
+	width: auto;
+}
+
+figure img {
+	width: 50%;
+}
+
+.konkurs {
+	width: 31%;
+	height: auto;
+	z-index: 1;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	transition: all .3s ease-in;
+	margin-top:50px;
+
+}
+
+.konkurs:hover {
+	transform: scale(1.02);
+	-webkit-box-shadow: 10px 10px 61px -16px rgba(51,51,51,0.34);
+	-moz-box-shadow: 10px 10px 61px -16px rgba(107, 107, 107, 0.34);
+	box-shadow: 10px 10px 61px -16px rgba(99, 99, 99, 0.34);
+}
+
+
+.konkurs p {
+	color: rgb(61, 61, 61);
+	transition: color 0.2s ease-in;
+}
+.konkurs p:hover {
+	color: rgb(60, 60, 116);
+}
+
+.post-kliko {
+    text-decoration: none;
+}
+
+.more-button {
+	border: none;
+	border-bottom: 1px solid transparent;
+	/* margin: 50px auto; */
+	color: var(--ubt-blue);
+	background: transparent;
+	transition: border 0.3s linear;
+	padding: 0;
+	font-size: 1em;
+}
+
+.more-button-text {
+	margin: 20px auto;
+}
+
+a {
+	text-align: center;
+}
+
+.more-button:hover {
+	border-color: black;
+}
+
+#section2 button {
+	position: relative;
+	border: none;
+	width: 100%;
+}
+
+.post-title {
+	font-weight: bolder;
+	color: var(--ubt-blue);
+	font-size: 1.5rem;
+}
+
+#section3 {
+	width: 100%;
+	height: 100vh;
+	background: white;
+}
+
+.lajmi {
+	width: 350px;
+	background: white;
+	margin: 0 5%;
+	padding: 30px;
+}
+
+.lajmi img {
+	width: 250px;
+}
+
+.question-mark {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	-webkit-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+	-moz-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+	box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+	border: 2px solid;
+	z-index: 9999999;
+	cursor: pointer;
+}
+
+.question-mark p {
+	line-height: 60px;
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+.shortcut-menu {
+	position: fixed;
+	z-index: 9999999;
+	left: 35%;
+	width: 30%;
+	top: 15%;
+	height: 70%;
+	overflow: hidden;
+	background: white;
+	border-radius: 20px;
+	display: none;
+	-webkit-box-shadow: 10px 10px 195px 94px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 195px 94px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 195px 94px rgba(0, 0, 0, 0.75);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.lajmet {
+	display: flex;
+	margin: 20px 0;
+}
+
+.cards {
+	width: 50px;
+	background: white;
+}
+
+.cards img {
+	width: 10px;
+	height: 200px;
+}
+
+.section2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.post-title {
+	margin: 20px 0;
+}
+
+.section2 .apliko-button {
+	padding: 10px 20px;
+	background: var(--ubt-blue);
+	color: #fff;
+	border: none;
+	margin: 25px 0;
+}
+
+.align {
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.97);
+	width: 100%;
+	padding: 0 5%;
+}
+
+.apliko-img {
+	position: absolute;
+	right: 0;
+	left: 50%;
+	z-index: -2;
+	opacity: 0.1;
+}
+
+.section3 {
+	position: relative;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(17, 45, 78, .9);
+}
+
+.section3:after {
+	content: "";
+	background: url(/img/students.svg), var(--ubt-blue);
+	background-position: center;
+	background-size: 1000px;
+	background-repeat: repeat-x;
+	opacity: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.section3 iframe {
+	margin-top: 150px;
+	margin-bottom: 100px;
+	z-index: 99999;
+}
+
+
+.section4 {
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+.kursi {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5%;
+	align-items: center;
+}
+
+.kursi button {
+	border: none;
+	color: white;
+	background: var(--ubt-blue);
+	padding: 15px 30px;
+    margin-top: 20px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.div {
+	width: auto;
+}
+
+.divv {
+	width: auto;
+}
+
+.kursi h1 {
+	font-size: 60px;
+	color: var(--ubt-blue);
+}
+
+.divv img {
+	width: 500px;
+	height: 500px;
+}
+
+footer {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	bottom: 0;
+	background: #403f3f;
+	transition: background 3 ease;
+}
+
+footer li {
+	list-style-type: none;
+}
+
+footer .top-second {
+	display: flex;
+	justify-content: center;
+}
+
+footer .top-first,
+.top-third {
+	text-align: left;
+}
+
+footer img {
+	width: 80px;
+	height: 80px;
+	padding: 5px;
+	border: 1px solid #565656;
+	border-radius: 50%;
+}
+
+.section-left a {
+	text-align: right;
+	transition: background 3 ease;
+}
+
+footer .top-first,
+.top-third {
+	width: 180px;
+}
+
+footer ul li a {
+	display: block;
+	color: #b3b2b2;
+	text-decoration: none;
+	-moz-transition: background 0.3s linear;
+	/* Firefox 4 */
+	-webkit-transition: all 0.3s linear;
+	/* Safari and Chrome */
+}
+
+footer a:hover {
+	text-decoration: underline;
+	padding: 0 .25rem;
+	color: white;
+}
+
+footer .bottom a {
+	display: inline;
+	font-size: 15px;
+	padding: 0 10px;
+}
+
+footer .bottom p {
+	text-align: center;
+}
+
+footer .bottom {
+	display: inline;
+	font-size: 15px;
+	padding: 0 10px;
+}
+
+footer .bottom {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 0;
+	border-top: 1px solid rgb(99, 99, 99);
+	color: #d9d9d9;
+}
+
+footer .top {
+	width: 100%;
+	color: #d9d9d9;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 5%;
+	border-bottom: 2px solid #000000;
+}
+
+footer .top a {
+	font-size: .8rem;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer .ndamje {
+	width: 1px;
+	height: auto;
+	background: #565656;
+	margin: 0 10px;
+}
+
+footer .section-left {
+	display: flex;
+}
+
+footer .section-right {
+	display: flex;
+}
+
+.top-third a {
+    text-align: left;
+}
+
+/*media*/
+
+.container {
+	margin-top: 130px
+}
+
+.gallery-wrap {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50vh;
+}
+
+.item {
+	flex: 1;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: flex 0.8s ease;
+}
+
+.item:hover {
+	flex: 7;
+}
+
+.item-1 {
+	background-image: url('https://businessgraduatesassociation.com/wp-content/uploads/2019/01/ubt2.jpg');
+}
+
+.item-2 {
+	background-image: url('https://knowledgecenter.ubt-uni.net/campus/1021/preview.jpg');
+}
+
+.item-3 {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/UBT_Campus_at_Lipjan_.jpg');
+}
+
+.item-4 {
+	background-image: url('https://bqk-kos.org/edu/wp-content/uploads/2019/04/IMG_2991-1-1024x683.jpg');
+}
+
+.item-5 {
+	background-image: url('https://photos.wikimapia.org/p/00/01/69/18/66_big.jpg');
+}
+
+.social {
+	position: absolute;
+	right: 35px;
+	bottom: 0;
+}
+
+.social img {
+	display: block;
+	width: 32px;
+}
+
+.media-section {
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+
+.page-title {
+	margin-top: 170px;
+	font-size: 50px;
+	text-align: center;
+	color: var(--ubt-blue);
+}
+
+.page-text {
+	margin-top: 20px;
+	display: flex;
+	align-self: center;
+	width: 70%;
+}
+
+.event-section {
+	font-size: 0;
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: column;
+	-webkit-flex-flow: row wrap;
+	display: flex;
+	height: 40vh;
+}
+
+.event-section h1 {
+	font-size: 15px;
+	display: block;
+	width: 100%;
+	color: var(--ubt-blue);
+	
+}
+
+.section-gallery {
+	padding: 0 5%;
+}
+
+.event-section div {
+	-webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto;
+	width: 200px;
+
+}
+
+.event-section img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.section5 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+#slider {
+	margin: 20px auto;
+	position: relative;
+	border: 10px solid white;
+	box-shadow: 0 0 5px 2px #ccc;
+}
+
+.section5 img {
+	width: 100%;
+	padding: 0 5%;
+	margin: 50px 0;
+	height: 200px;
+	object-fit: cover;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+.stop {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	background: var(--ubt-blue);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-play {
+	color: white;
+}
+
+.section5 button {
+	padding: 20px;
+	border: none;
+	background: #37f;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 45%;
+	cursor: pointer;
+}
+
+.next {
+	border-radius: 10px 0 0 10px;
+	margin-left: 950px;
+}
+
+.prew {
+	border-radius: 0 10px 10px 0;
+}
+
+.lajme-section {
+	margin-top: 130px;
+	background: var(--ubt-blue);
+}
+
+.lajme-first {
+	width: 100%;
+	height: 180px;
+	background: url("/img/ubt-campus.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 10px;
+}
+
+.lajme-second {
+	width: 100%;
+	height: 180px;
+	background: url("/img/ubt-slide2.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 10px;
+}
+
+.lajme-section-second {
+	margin-top:0px;
+}
+
+.first-post {
+	width: 50%;
+	margin: 130px auto;
+	height: auto;
+	background: rgb(226, 226, 226);
+	padding: 30px 5%;
+	border-radius: 10px;
+}
+
+.first-post img {
+	width: 100%;
+	height: 25vh;
+	object-fit: cover;
+}
+
+.first-post h1 {
+	font-size: 30px;
+	color: var(--ubt-blue);
+	margin: 10px 0;
+}
+
+
+
+.map {
+	height: 100vh;
+	display: flex;
+	margin-top:130px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: var(--ubt-blue);
+}
+
+#map iframe {
+	width: 800px;
+	height: 250px;
+}
+
+.map-c {
+	width: 800px;
+	background: white;
+	padding: 10px;
+	color:var(--ubt-blue);
+	border-radius: 10px;
+}
+
+.det {
+	padding: 10px 0;
+}
+
+#div-img {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	height: 50vh;
+}
+
+.top-kurs {
+	display: flex;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-kurs img {
+	width: auto;
+	height: 300px;
+}
+
+
+
+.kurs-down {
+	margin-top:200px;
+	padding: 0 5%;
+}
+
+.kurs-down h1 {
+ font-size: 60px;
+ width: 500px;
+ color: var(--ubt-blue);
+}
+
+.link-img-learn img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	transition: all 0.3s ease-in;
+	border: 3px solid var(--ubt-blue);
+}
+
+.link-img-learn img:hover {
+	transform: scale(1.03);
+	opacity: 0.7;
+}
+
+.breaker {
+	width: 100%;
+	height: 2px;
+	background: var(--ubt-blue);
+	margin-top:30px;
+}
+
+
+.login-page {
+	position: absolute;
+	width: 30%;
+	height: auto;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 500px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	padding: 50px;
+}
+
+.form h1 {
+	padding-bottom: 30px;
+}
+
+.form input {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: var(--ubt-blue);
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+	background: var(--ubt-blue);
+}
+
+.form .message {
+	margin: 15px 0 0;
+	color: #b3b3b3;
+	font-size: 12px;
+}
+
+
+
+.form .message a {
+	color: var(--ubt-blue);
+	text-decoration: none;
+}
+
+.form .register-form {
+	display: none;
+}
+
+.log-section {
+	background: var(--ubt-blue);
+	width: 100%;
+	height: 90vh;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 130px;
+}
+
+
+@media screen and (max-width: 400px) {
+	.event-section div {
+		margin: 0;
+	}
+	.event-section {
+		padding: 0;
+	}
+}
+
+@media (max-width: 992px) {
+
+
+	.section4 {
+		width: 100%;
+		overflow: hidden;
+	}
+	.kursi h1 {
+		font-size: 2rem;
+		color: var(--ubt-blue);
+	}
+	.konkurs {
+		width: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.opacity {
+		display: flex;
+		justify-content: flex-start;
+		align-self: center;
+		align-items: center;
+		flex-direction: column;
+		height: auto;
+	}
+	.majtas {
+		width: 100%;
+		height: 180px;
+		background: url("/img/ubt-studentat.jpg");
+		background-size: cover;
+		background-position: center;
+		margin-right: 20px;
+	}
+	.section2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+	}
+	.section1 {
+		background-image: url('/img/ubt-campus.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 130px;
+		width: 100%;
+		height: 300px;
+	}
+	.section1-below {
+		height: auto;
+	}
+	.section1-below h1 {
+		font-size: 1.5rem;
+	}
+	#section1 h2 {
+		font-size: 1.6rem;
+		padding: 0;
+		margin: 0;
+	}
+	.loopa-dropdown {
+		min-width: auto;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav-majtas ul li a {
+		padding: 10px 10px;
+	}
+	.nav-majtas ul {
+		padding: 20px 10px;
+	}
+	.brand {
+		width: 80px;
+		height: 80px;
+	}
+	.kufiza {
+		width: 2px;
+		height: 50px;
+		background: white;
+		margin: 10px;
+	}
+}
+
+@media (max-width:600px) {
+
+	.form {
+		padding: 20px;
+		width: 300px;
+	}
+
+	.form input {
+		
+	}
+
+	.login-page {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	
+	.log-section {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#div-img {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		height: auto;
+	
+	}
+
+	.first-post {
+		width: 100%;
+	}
+	.section-gallery {
+		display: block;
+		margin-bottom:900px;
+	}
+
+	.kursi h1 {
+		font-size: 2rem;
+		color: var(--ubt-blue);
+	}
+	.section4 {
+		width: 100%;
+		overflow: hidden;
+	}
+	.div {
+		width: 200px;
+	}
+	.divv {
+		width: 250px;
+	}
+	.divv img {
+		width: 100%;
+		height: auto;
+	}
+	.section1-below {
+		display: none;
+	}
+	.konkurs {
+		margin: 20px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	
+	}
+	.section2 {
+		height: auto;
+		display: flex;
+
+	}
+	.align {
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		align-items: center;
+		flex-direction: column;
+		height: auto;
+	}
+	.majtas {
+		width: 100%;
+		height: 180px;
+		background: url("/img/ubt-studentat.jpg");
+		background-size: cover;
+		background-position: center;
+		margin: 10px;
+	}
+	.section1 {
+		background-image: url('/img/ubt-campus.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 130px;
+		width: 100%;
+		height: 300px;
+	}
+	.background-color {
+		justify-content: center;
+		align-items: center;
+	}
+	.section1 button {
+		padding: 5px 50px;
+		font-size: 1rem;
+	}
+	.section1 h1 {
+		font-size: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	footer .top {
+		width: 100%;
+		color: #d9d9d9;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 2px solid #000000;
+	}
+	footer img {
+		width: 50px;
+		height: 50px;
+		padding: 5px;
+		border: 1px solid #565656;
+		border-radius: 50%;
+	}
+	/*position of 2divs */
+	footer .top-first,
+	.top-third {
+		width: 100px;
+		display: flex;
+		justify-content: center;
+		text-align: justify;
+    }
+    .top-third a {
+        text-align: left;
+    }
+	.nav-majtas ul {
+		display: none;
+	}
+	.informate-shtese {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		padding: 10px 0;
+		width: 100%;
+		font-size: 10px;
+		background: var(--ubt-dark-blue);
+	}
+	.informate-shtese ul {
+		padding: 0;
+	}
+	.informate-shtese a {
+		padding: 15px;
+		text-align: center;
+	}
+	.kufiza {
+		display: none;
+	}
+	header {
+		-webkit-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+		-moz-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+		box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
+	}
+}
+
+
