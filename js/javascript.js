@@ -1,10 +1,7 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
 function myFunction() {
 	document.getElementById("lista-dropdown").classList.toggle("show");
 }
-// Close the dropdown if the user clicks on next item
-//matches.(hasClass)
+
 window.onclick = function (event) {
 	if (!event.target.matches('.butoni-dropdown')) {
 		var dropdowns = document.getElementsByClassName("loopa-dropdown");
@@ -17,7 +14,7 @@ window.onclick = function (event) {
 		}
 	}
 }
-//questionmark
+
 function aFunction() {
 	var x = document.getElementById("shortcuts");
 	if (x.style.display === "none") {
@@ -28,7 +25,7 @@ function aFunction() {
 }
 
 function wFunction() {
-	var pp = document.getElementById("kaka"); //change this
+	var pp = document.getElementById("kaka"); //change name
 	var zz = document.getElementById("papa");
 	if (pp.style.display === "none") {
 		pp.style.display = "block";

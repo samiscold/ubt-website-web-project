@@ -64,6 +64,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 }
+
 /* 
 .section1-below:before {
 	font-family: Tahoma;
@@ -103,9 +104,9 @@ nav {
 }
 
 .butonet button:active {
-	background:rgb(4, 6, 32)
+	background: rgb(4, 6, 32)
 }
-	
+
 button:active i {
 	transform: scale(2);
 }
@@ -114,18 +115,17 @@ button:active i {
 	padding: 0 5px;
 }
 
-
 .form-control {
-position: relative;
-text-align: left;
-height: auto;
-padding: 15px 0;
+	position: relative;
+	text-align: left;
+	height: auto;
+	padding: 15px 0;
 }
 
 .form-control small {
 	position: absolute;
-	bottom:0;
-	left:0;
+	bottom: 0;
+	left: 0;
 	color: #e74c3c;
 	padding: 10px 0;
 	visibility: hidden;
@@ -140,7 +140,7 @@ padding: 15px 0;
 }
 
 .form-control.success input {
-	border:1px solid green;
+	border: 1px solid green;
 }
 
 .section1 h1 {
@@ -212,7 +212,6 @@ header ul li a {
 header ul li {
 	list-style-type: none;
 }
-
 
 /* js class */
 
@@ -303,12 +302,6 @@ img {
 	padding: 0 5px;
 }
 
-#section2 {
-	width: 100%;
-	height: auto;
-	background: white;
-}
-
 figure {
 	position: relative;
 	display: flex;
@@ -333,28 +326,27 @@ figure img {
 	display: flex;
 	flex-wrap: wrap;
 	transition: all .3s ease-in;
-	margin-top:50px;
-
+	margin-top: 50px;
 }
 
 .konkurs:hover {
 	transform: scale(1.02);
-	-webkit-box-shadow: 10px 10px 61px -16px rgba(51,51,51,0.34);
+	-webkit-box-shadow: 10px 10px 61px -16px rgba(51, 51, 51, 0.34);
 	-moz-box-shadow: 10px 10px 61px -16px rgba(107, 107, 107, 0.34);
 	box-shadow: 10px 10px 61px -16px rgba(99, 99, 99, 0.34);
 }
-
 
 .konkurs p {
 	color: rgb(61, 61, 61);
 	transition: color 0.2s ease-in;
 }
+
 .konkurs p:hover {
 	color: rgb(60, 60, 116);
 }
 
 .post-kliko {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .more-button {
@@ -538,7 +530,6 @@ a {
 	z-index: 99999;
 }
 
-
 .section4 {
 	width: 100%;
 	height: 70vh;
@@ -558,7 +549,7 @@ a {
 	color: white;
 	background: var(--ubt-blue);
 	padding: 15px 30px;
-    margin-top: 20px;
+	margin-top: 20px;
 	font-size: 1.2rem;
 	cursor: pointer;
 }
@@ -697,7 +688,7 @@ footer .section-right {
 }
 
 .top-third a {
-    text-align: left;
+	text-align: left;
 }
 
 /*media*/
@@ -794,7 +785,6 @@ footer .section-right {
 	display: block;
 	width: 100%;
 	color: var(--ubt-blue);
-	
 }
 
 .section-gallery {
@@ -806,7 +796,6 @@ footer .section-right {
 	-ms-flex: auto;
 	flex: auto;
 	width: 200px;
-
 }
 
 .event-section img {
@@ -902,7 +891,7 @@ footer .section-right {
 }
 
 .lajme-section-second {
-	margin-top:0px;
+	margin-top: 0px;
 }
 
 .first-post {
@@ -926,12 +915,10 @@ footer .section-right {
 	margin: 10px 0;
 }
 
-
-
 .map {
 	height: 100vh;
 	display: flex;
-	margin-top:130px;
+	margin-top: 130px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -947,7 +934,7 @@ footer .section-right {
 	width: 800px;
 	background: white;
 	padding: 10px;
-	color:var(--ubt-blue);
+	color: var(--ubt-blue);
 	border-radius: 10px;
 }
 
@@ -976,17 +963,15 @@ footer .section-right {
 	height: 300px;
 }
 
-
-
 .kurs-down {
-	margin-top:200px;
+	margin-top: 200px;
 	padding: 0 5%;
 }
 
 .kurs-down h1 {
- font-size: 60px;
- width: 500px;
- color: var(--ubt-blue);
+	font-size: 60px;
+	width: 500px;
+	color: var(--ubt-blue);
 }
 
 .link-img-learn img {
@@ -1007,9 +992,8 @@ footer .section-right {
 	width: 100%;
 	height: 2px;
 	background: var(--ubt-blue);
-	margin-top:30px;
+	margin-top: 30px;
 }
-
 
 .login-page {
 	position: absolute;
@@ -1070,8 +1054,6 @@ footer .section-right {
 	font-size: 12px;
 }
 
-
-
 .form .message a {
 	color: var(--ubt-blue);
 	text-decoration: none;
@@ -1093,27 +1075,27 @@ footer .section-right {
 	margin-top: 130px;
 }
 
-
 @media screen and (max-width: 400px) {
 	.event-section div {
 		margin: 0;
 	}
+
 	.event-section {
 		padding: 0;
 	}
 }
 
 @media (max-width: 992px) {
-
-
 	.section4 {
 		width: 100%;
 		overflow: hidden;
 	}
+
 	.kursi h1 {
 		font-size: 2rem;
 		color: var(--ubt-blue);
 	}
+
 	.konkurs {
 		width: auto;
 		display: flex;
@@ -1121,6 +1103,7 @@ footer .section-right {
 		align-items: center;
 		flex-direction: column;
 	}
+
 	.opacity {
 		display: flex;
 		justify-content: flex-start;
@@ -1129,6 +1112,7 @@ footer .section-right {
 		flex-direction: column;
 		height: auto;
 	}
+
 	.majtas {
 		width: 100%;
 		height: 180px;
@@ -1137,6 +1121,7 @@ footer .section-right {
 		background-position: center;
 		margin-right: 20px;
 	}
+
 	.section2 {
 		display: flex;
 		flex-direction: column;
@@ -1144,8 +1129,10 @@ footer .section-right {
 		justify-content: center;
 		height: auto;
 	}
+
 	.section1 {
-		background-image: url('../img/ubt-studentat.jpg');;
+		background-image: url('../img/ubt-studentat.jpg');
+		;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -1153,34 +1140,43 @@ footer .section-right {
 		width: 100%;
 		height: 300px;
 	}
+
 	.section1-below {
 		height: auto;
 	}
+
 	.section1-below h1 {
 		font-size: 1.5rem;
 	}
+
 	#section1 h2 {
 		font-size: 1.6rem;
 		padding: 0;
 		margin: 0;
 	}
+
 	.loopa-dropdown {
 		min-width: auto;
 	}
+
 	nav {
 		display: flex;
 		justify-content: space-between;
 	}
+
 	.nav-majtas ul li a {
 		padding: 10px 10px;
 	}
+
 	.nav-majtas ul {
 		padding: 20px 10px;
 	}
+
 	.brand {
 		width: 80px;
 		height: 80px;
 	}
+
 	.kufiza {
 		width: 2px;
 		height: 50px;
@@ -1189,16 +1185,13 @@ footer .section-right {
 	}
 }
 
-@media (max-width:600px) {
-
+@media (max-width: 600px) {
 	.form {
 		padding: 20px;
 		width: 300px;
 	}
 
-	.form input {
-		
-	}
+	.form input {}
 
 	.login-page {
 		width: 100%;
@@ -1206,7 +1199,6 @@ footer .section-right {
 		justify-content: center;
 	}
 
-	
 	.log-section {
 		width: 100%;
 		display: flex;
@@ -1220,51 +1212,57 @@ footer .section-right {
 		align-items: center;
 		flex-direction: column;
 		height: auto;
-	
 	}
 
 	.first-post {
 		width: 100%;
 	}
+
 	.section-gallery {
 		display: block;
-		margin-bottom:900px;
+		margin-bottom: 900px;
 	}
 
 	.kursi h1 {
 		font-size: 2rem;
 		color: var(--ubt-blue);
 	}
+
 	.section4 {
 		width: 100%;
 		overflow: hidden;
 	}
+
 	.div {
 		width: 200px;
 	}
+
 	.divv {
 		width: 250px;
 	}
+
 	.divv img {
 		width: 100%;
 		height: auto;
 	}
+
 	.section1-below {
 		display: none;
 	}
+
 	.konkurs {
 		margin: 20px 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-	
 	}
+
 	.section2 {
 		height: auto;
 		display: flex;
-
 	}
+
 	.align {
 		display: flex;
 		justify-content: center;
@@ -1273,6 +1271,7 @@ footer .section-right {
 		flex-direction: column;
 		height: auto;
 	}
+
 	.majtas {
 		width: 100%;
 		height: 180px;
@@ -1281,6 +1280,7 @@ footer .section-right {
 		background-position: center;
 		margin: 10px;
 	}
+
 	.section1 {
 		background-image: url('../img/ubt-studentat.jpg');
 		background-position: center;
@@ -1290,14 +1290,17 @@ footer .section-right {
 		width: 100%;
 		height: 300px;
 	}
+
 	.background-color {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.section1 button {
 		padding: 5px 50px;
 		font-size: 1rem;
 	}
+
 	.section1 h1 {
 		font-size: 2rem;
 		display: flex;
@@ -1305,6 +1308,7 @@ footer .section-right {
 		align-items: center;
 		text-align: center;
 	}
+
 	footer .top {
 		width: 100%;
 		color: #d9d9d9;
@@ -1312,6 +1316,7 @@ footer .section-right {
 		justify-content: space-between;
 		border-bottom: 2px solid #000000;
 	}
+
 	footer img {
 		width: 50px;
 		height: 50px;
@@ -1319,6 +1324,7 @@ footer .section-right {
 		border: 1px solid #565656;
 		border-radius: 50%;
 	}
+
 	/*position of 2divs */
 	footer .top-first,
 	.top-third {
@@ -1326,13 +1332,16 @@ footer .section-right {
 		display: flex;
 		justify-content: center;
 		text-align: justify;
-    }
-    .top-third a {
-        text-align: left;
-    }
+	}
+
+	.top-third a {
+		text-align: left;
+	}
+
 	.nav-majtas ul {
 		display: none;
 	}
+
 	.informate-shtese {
 		display: flex;
 		justify-content: center;
@@ -1342,21 +1351,23 @@ footer .section-right {
 		font-size: 10px;
 		background: var(--ubt-dark-blue);
 	}
+
 	.informate-shtese ul {
 		padding: 0;
 	}
+
 	.informate-shtese a {
 		padding: 15px;
 		text-align: center;
 	}
+
 	.kufiza {
 		display: none;
 	}
+
 	header {
 		-webkit-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
 		-moz-box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
 		box-shadow: 7px 36px 82px -62px rgba(3, 89, 250, 1);
 	}
 }
-
-
