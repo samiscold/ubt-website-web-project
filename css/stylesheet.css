@@ -46,7 +46,7 @@ nav {
 }
 
 .section1 {
-	background-image: url('.img/ubt-studentat.jpg');
+	background-image: url('../img/ubt-studentat.jpg');
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -64,7 +64,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 }
-
+/* 
 .section1-below:before {
 	font-family: Tahoma;
 	content: '"';
@@ -79,7 +79,7 @@ nav {
 	color: white;
 	font-size: 150px;
 	padding: 25px;
-}
+} */
 
 .section1-below h1 {
 	color: white;
@@ -1108,7 +1108,7 @@ footer .section-right {
 		height: auto;
 	}
 	.section1 {
-		background-image: url('../img/ubt-campus.jpg');
+		background-image: url('../img/ubt-studentat.jpg');;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -1239,13 +1239,13 @@ footer .section-right {
 	.majtas {
 		width: 100%;
 		height: 180px;
-		background: url("./img/ubt-studentat.jpg");
+		background: url("../img/ubt-studentat.jpg");
 		background-size: cover;
 		background-position: center;
 		margin: 10px;
 	}
 	.section1 {
-		background-image: url('../img/ubt-campus.jpg');
+		background-image: url('../img/ubt-studentat.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
