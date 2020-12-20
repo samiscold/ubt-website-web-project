@@ -66,19 +66,46 @@
         <div class="login-page">
             <div class="form">
               
-              <form class="register-form" id="kaka">
+            
+              <form action="/"  method="GET" class="register-form" id="kaka">
                 <h1>Krijo llogari</h1>
-                <input type="text" placeholder="emri"/>
-                <input type="password" placeholder="fjalekalimi"/>
-                <input type="text" placeholder="email addressa"/>
-                <button>create</button>
+                <div class="form-control">
+                  <input id="name" name="name" type="text" placeholder="emri"/>
+                  <small>Error Message</small>
+                </div> 
+            
+               <div class="form-control">
+                <input id="email" name="email" type="text" placeholder="email addressa"/>
+                <small>Error Message</small>
+               </div>
+
+               <div class="form-control">
+                <input id="password" name="password" type="password" placeholder="fjalekalimi"/>
+                <small>Error Message</small>
+               </div>
+
+               <div class="form-control">
+                <input id="password2" name="password" type="password" placeholder="konfirmo fjalekalimin"/>
+                <small>Error Message</small>
+               </div>
+               
+                <button type="submit">create</button>
                 <p class="message">Ke llogari? <a onclick="wFunction()"  href="#">Kyçu</a></p>
               </form>
+
               <form class="login-form" id="papa">
                 <h1>Kyçu</h1>
-                <input type="text" placeholder="email adressa"/>
-                <input type="password" placeholder="fjalekalimi"/>
-                <button>login</button>
+                <div class="form-control">
+                  <input id="logmail" type="text" placeholder="email adressa"/>
+                  <small>Error Message</small>
+                </div>
+              
+
+                <div class="form-control">
+                <input id="logpass" type="password" placeholder="fjalekalimi"/>
+                  <small>Error Message</small>
+                </div>
+                <button type="submit">login</button>
                 <p class="message">Nuk keni llogari? <a class="create" onclick="wFunction()" href="#">Krijo nje llogarit</a></p>
               </form>
             </div>
@@ -133,6 +160,7 @@
       </div>
     </footer>
 
+    <script src="js/validate.js"></script>
     <script src="js/javascript.js"></script>
 </body>
 </html>
