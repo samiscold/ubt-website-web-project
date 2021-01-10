@@ -1144,6 +1144,14 @@ footer .section-right {
 @media (max-width: 992px) {
 
 
+	.map-c {
+		width: 300px;
+	}
+
+	#map iframe {
+		width: 300px;
+	}
+
 	.link-img-learn img {
 		width: 120px;
 		height: 120px;
