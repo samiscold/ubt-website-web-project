@@ -17,4 +17,12 @@ git clone https://github.com/samiscold/ubt-website-web-project
 ## Shpejtesi?
  [online](http://sentinelart.me/ubt-website-web-project/)
 
+
+## Perditsimet
+ 
+ 12/30/2020 - Quick Responsivity Fix
+ 1/5/2021 - Images Fix
+ 1/10/2021 - Slider Fix
+ 
+ 
 ## Faleminderit!
