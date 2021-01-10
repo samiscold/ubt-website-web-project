@@ -532,7 +532,7 @@ a {
 
 .section4 {
 	width: 100%;
-	height: 70vh;
+	height: auto;
 	display: flex;
 	align-items: center;
 }
@@ -542,6 +542,7 @@ a {
 	justify-content: space-between;
 	padding: 0 5%;
 	align-items: center;
+	margin: 50px 0;
 }
 
 .kursi button {
@@ -552,6 +553,7 @@ a {
 	margin-top: 20px;
 	font-size: 1.2rem;
 	cursor: pointer;
+	margin:20px 0;
 }
 
 .div {
@@ -1138,6 +1140,10 @@ footer .section-right {
 }
 
 @media (max-width: 992px) {
+
+	.section-gallery {
+		margin-bottom: 150px;
+	}
 	.section4 {
 		width: 100%;
 		overflow: hidden;
@@ -1238,6 +1244,24 @@ footer .section-right {
 }
 
 @media (max-width: 600px) {
+
+
+	iframe {
+		width: 90%;
+		height: 225px;
+		margin: 0 auto;
+	}
+
+	.krapper {
+		display: flex;
+		z-index: 0;
+	}
+
+	.section-gallery {
+		margin-bottom: 0px;
+	}
+
+
 	.form {
 		padding: 20px;
 		width: 300px;
