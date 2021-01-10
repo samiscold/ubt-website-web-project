@@ -1144,6 +1144,31 @@ footer .section-right {
 @media (max-width: 992px) {
 
 
+	.link-img-learn img {
+		width: 120px;
+		height: 120px;
+	}
+
+	.kurs-down {
+		height: auto;
+		margin-top:140px;
+	}
+
+	.kurs-down h1 {
+		font-size: 30px;
+		width: auto;
+		margin:10px 0;
+	}
+
+	.top-kurs {
+		flex-direction: column;
+	}
+
+	.kurs-down img {
+		width: 100%;
+		height: auto;
+	}
+
 	.loopa-dropdown a {
 		width: 100px;
 	}
