@@ -25,13 +25,18 @@ function aFunction() {
 }
 
 function wFunction() {
-	var pp = document.getElementById("kaka"); //change name
-	var zz = document.getElementById("papa");
-	if (pp.style.display === "none") {
-		pp.style.display = "block";
-		zz.style.display = "none";
-	} else {
-		pp.style.display = "none";
+	var pp = document.getElementById("kaka"); //register form
+	var zz = document.getElementById("papa"); // login form
+
+
+	
+	if (zz.style.display === "none") {
 		zz.style.display = "block";
+		pp.style.display = "none"
 	}
+	
+    else {
+		zz.style.display = "none";
+		pp.style.display = "block";
+    }
 }

@@ -123,7 +123,6 @@ button:active i {
 }
 
 .form-control small {
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	color: #e74c3c;
@@ -322,7 +321,7 @@ figure img {
 	z-index: 1;
 	border-radius: 10px;
 	cursor: pointer;
-	padding: 20px;
+	padding: 20px 0px;
 	display: flex;
 	flex-wrap: wrap;
 	transition: all .3s ease-in;
@@ -345,7 +344,8 @@ figure img {
 	color: rgb(60, 60, 116);
 }
 
-.post-kliko {
+.post-kliko  {
+	width: 100%;
 	text-decoration: none;
 }
 
@@ -1057,9 +1057,13 @@ footer .section-right {
 	height: auto;
 }
 
+.login-button {
+	margin: 20px 0;
+}
+
 .form {
 	position: relative;
-	z-index: 1;
+	z-index: 0;
 	background: #FFFFFF;
 	max-width: 500px;
 	text-align: center;
@@ -1212,7 +1216,7 @@ footer .section-right {
 	}
 
 	.majtas {
-		width: 100%;
+		width: auto;
 		height: 180px;
 		background: url("../img/ubt-studentat.jpg");
 		background-size: cover;
@@ -1386,7 +1390,7 @@ footer .section-right {
 	}
 
 	.majtas {
-		width: 100%;
+		width: auto;
 		height: 180px;
 		background: url("../img/ubt-studentat.jpg");
 		background-size: cover;
