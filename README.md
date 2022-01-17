@@ -13,11 +13,6 @@
 git clone https://github.com/samiscold/ubt-website-web-project
 ```
 
-
-## Shpejtesi?
- [online](http://sentinelart.me/ubt-website-web-project/)
-
-
 ## Perditsimet
  
  12/30/2020 - Quick Responsivity Fix
